@@ -21,7 +21,7 @@ class Survey < ActiveRecord::Base
     end
   end
 
-  private
+  # private
 
   def create_link_code
     self.link_code = SecureRandom.hex(5)
